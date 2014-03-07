@@ -1,6 +1,6 @@
 {
   "name": "language-eco",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "A package for using Embedded Coffeescript templates.",
   "repository": "https://github.com/hstove/language-eco",
@@ -8,6 +8,5 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
