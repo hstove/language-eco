@@ -1,0 +1,7 @@
+'.text.html.eco':
+  'for in loop':
+    prefix: 'forin'
+    body: '<% for ${1:variable} in ${2:array} : %>\n\n<% end %>'
+  'for of loop':
+    prefix: 'forof'
+    body: '<% for ${1:key}, ${2:value} of ${3:object} : %>\n\n<% end %>'
