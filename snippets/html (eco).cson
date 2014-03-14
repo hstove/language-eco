@@ -5,3 +5,12 @@
   'for of loop':
     prefix: 'forof'
     body: '<% for ${1:key}, ${2:value} of ${3:object} : %>\n\n<% end %>'
+  'unsanitized render block':
+    prefix: '-'
+    body: '<%- $1 %>'
+  'sanitized render block':
+    prefix: '='
+    body: '<%= $1 %>'
+  'if':
+    prefix: 'if'
+    body: "<% if ${1:condition} : %>\n\n<% end %>"
